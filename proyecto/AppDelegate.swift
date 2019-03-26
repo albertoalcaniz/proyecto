@@ -7,15 +7,52 @@
 //
 
 import UIKit
+import Firebase
+import CoreData
+import GoogleMaps
+//import GooglePlaces
 
+//let googleApiKey = "AIzaSyAj-Y2Hp4AyTSx-TW4wlei03XukAmS24kA"
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+   
+    static let googleMapsApiKey = "AIzaSyAj-Y2Hp4AyTSx-TW4wlei03XukAmS24kA"
+    static let googlePlacesAPIKey = "AIzaSyAj-Y2Hp4AyTSx-TW4wlei03XukAmS24kA"
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //Color de fondo UINavigationBar
+        UINavigationBar.appearance().backgroundColor = UIColor(red: 21.0/255.0, green: 103.0/255.0, blue: 164.0/255.0, alpha: 1.0)
+        
+        //Tipografía título UINavigationBar
+        if let barFont = UIFont(name: "Avenir-Light", size: 24.0) {
+            UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white, NSAttributedString.Key.font: barFont]
+        }
+        
+         UIApplication.shared.statusBarStyle = .lightContent
+        FirebaseApp.configure()
+        Auth.auth().addStateDidChangeListener {
+            auth, user in
+            let user = Auth.auth().currentUser
+            if user != nil {
+                // User is signed in.
+                print("Automatic Sign In: \(user?.email)")
+                
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let initialViewController = storyboard.instantiateViewController(withIdentifier: "Inicio")
+                self.window!.rootViewController = initialViewController
+                
+            } else {
+                // No user is signed in.
+            }
+        }
+       // GMSServices.provideAPIKey(googleApiKey)
+       // GMSPlacesClient.provideAPIKey(googleApiKey)
+        GMSServices.provideAPIKey(AppDelegate.googleMapsApiKey)
+
         return true
     }
 
@@ -39,6 +76,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+     
+    }
+    lazy var persistentContainer: NSPersistentContainer = {
+      
+        let container = NSPersistentContainer(name: "ProductosCompra")
+        container.loadPersistentStores(completionHandler: { (storeDescription, error) in
+            if let error = error as NSError? {
+             
+                fatalError("Unresolved error \(error), \(error.userInfo)")
+            }
+        })
+        return container
+    }()
+    
+    // MARK: - Core Data Saving support
+    
+    func saveContext () {
+        let context = persistentContainer.viewContext
+        if context.hasChanges {
+            do {
+                try context.save()
+            } catch {
+             
+                let nserror = error as NSError
+                fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
+            }
+        }
     }
 
 

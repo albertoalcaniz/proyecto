@@ -7,21 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		375BCCB72244CF4300935CAD /* SupermarketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375BCCB62244CF4300935CAD /* SupermarketModel.swift */; };
+		375BCCB92244DE2800935CAD /* SupermarketPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375BCCB82244DE2800935CAD /* SupermarketPhoto.swift */; };
+		375BCCBB2244E5C500935CAD /* SupermarketCercanos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375BCCBA2244E5C500935CAD /* SupermarketCercanos.swift */; };
+		375BCCC12244E70500935CAD /* Servicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375BCCC02244E70500935CAD /* Servicio.swift */; };
+		375BCCC32244E78400935CAD /* SupermarketMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375BCCC22244E78400935CAD /* SupermarketMap.swift */; };
+		375BCCC62244E7D600935CAD /* SupermarketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375BCCC52244E7D600935CAD /* SupermarketCell.swift */; };
+		37617CEA223A756200A0B56A /* Registro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37617CE9223A756200A0B56A /* Registro.swift */; };
+		37617CF4223A938A00A0B56A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37617CF3223A938A00A0B56A /* SWRevealViewController.m */; };
+		37617CF6223AB4EE00A0B56A /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37617CF5223AB4EE00A0B56A /* Inicio.swift */; };
+		37617CF8223ABAA200A0B56A /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37617CF7223ABAA200A0B56A /* Menu.swift */; };
+		37617CFC223C299800A0B56A /* ListaCompraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37617CFB223C299800A0B56A /* ListaCompraCell.swift */; };
+		37617D00223C2DEF00A0B56A /* ProductosCompra.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37617CFE223C2DEF00A0B56A /* ProductosCompra.xcdatamodeld */; };
+		37617D02223F952A00A0B56A /* AddListaCompra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37617D01223F952A00A0B56A /* AddListaCompra.swift */; };
+		37617D04223FBB9900A0B56A /* ListaCompraTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37617D03223FBB9800A0B56A /* ListaCompraTable.swift */; };
+		37A43ADE223A5D1200A73AC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37A43ADD223A5D1100A73AC1 /* GoogleService-Info.plist */; };
 		37B7462121F5CD5E00B6A627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B7462021F5CD5E00B6A627 /* AppDelegate.swift */; };
-		37B7462321F5CD5E00B6A627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B7462221F5CD5E00B6A627 /* ViewController.swift */; };
+		37B7462321F5CD5E00B6A627 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B7462221F5CD5E00B6A627 /* Login.swift */; };
 		37B7462621F5CD5E00B6A627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B7462421F5CD5E00B6A627 /* Main.storyboard */; };
 		37B7462821F5CD6000B6A627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B7462721F5CD6000B6A627 /* Assets.xcassets */; };
 		37B7462B21F5CD6000B6A627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B7462921F5CD6000B6A627 /* LaunchScreen.storyboard */; };
+		9A42BBCE653760925234A3CC /* Pods_proyecto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1267FCC705D6AAF2F9CD046 /* Pods_proyecto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		375BCCB62244CF4300935CAD /* SupermarketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupermarketModel.swift; sourceTree = "<group>"; };
+		375BCCB82244DE2800935CAD /* SupermarketPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupermarketPhoto.swift; sourceTree = "<group>"; };
+		375BCCBA2244E5C500935CAD /* SupermarketCercanos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupermarketCercanos.swift; sourceTree = "<group>"; };
+		375BCCC02244E70500935CAD /* Servicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servicio.swift; sourceTree = "<group>"; };
+		375BCCC22244E78400935CAD /* SupermarketMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupermarketMap.swift; sourceTree = "<group>"; };
+		375BCCC52244E7D600935CAD /* SupermarketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupermarketCell.swift; sourceTree = "<group>"; };
+		37617CE9223A756200A0B56A /* Registro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registro.swift; sourceTree = "<group>"; };
+		37617CF1223A938800A0B56A /* proyecto-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "proyecto-Bridging-Header.h"; sourceTree = "<group>"; };
+		37617CF2223A938A00A0B56A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		37617CF3223A938A00A0B56A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		37617CF5223AB4EE00A0B56A /* Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio.swift; sourceTree = "<group>"; };
+		37617CF7223ABAA200A0B56A /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		37617CFB223C299800A0B56A /* ListaCompraCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCompraCell.swift; sourceTree = "<group>"; };
+		37617CFF223C2DEF00A0B56A /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		37617D01223F952A00A0B56A /* AddListaCompra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListaCompra.swift; sourceTree = "<group>"; };
+		37617D03223FBB9800A0B56A /* ListaCompraTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCompraTable.swift; sourceTree = "<group>"; };
+		37617D0822425BC600A0B56A /* mi casa.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "mi casa.gpx"; sourceTree = "<group>"; };
+		37A43ADD223A5D1100A73AC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		37B7461D21F5CD5E00B6A627 /* proyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proyecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B7462021F5CD5E00B6A627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37B7462221F5CD5E00B6A627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37B7462221F5CD5E00B6A627 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		37B7462521F5CD5E00B6A627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37B7462721F5CD6000B6A627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37B7462A21F5CD6000B6A627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37B7462C21F5CD6000B6A627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAD89484A0054CBAFA04F8A /* Pods-proyecto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proyecto.release.xcconfig"; path = "Pods/Target Support Files/Pods-proyecto/Pods-proyecto.release.xcconfig"; sourceTree = "<group>"; };
+		C58392D41FA8E1855266DCDA /* Pods-proyecto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proyecto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-proyecto/Pods-proyecto.debug.xcconfig"; sourceTree = "<group>"; };
+		F1267FCC705D6AAF2F9CD046 /* Pods_proyecto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_proyecto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +66,103 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A42BBCE653760925234A3CC /* Pods_proyecto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		372D40D92246351000E00E14 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				37617CF7223ABAA200A0B56A /* Menu.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		375BCCBC2244E60800935CAD /* Supermercados */ = {
+			isa = PBXGroup;
+			children = (
+				375BCCC42244E7B100935CAD /* Celda */,
+				375BCCBF2244E6F300935CAD /* Servicio */,
+				375BCCBE2244E65900935CAD /* Views */,
+				375BCCBD2244E61700935CAD /* Modelos */,
+			);
+			path = Supermercados;
+			sourceTree = "<group>";
+		};
+		375BCCBD2244E61700935CAD /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				375BCCB82244DE2800935CAD /* SupermarketPhoto.swift */,
+				375BCCB62244CF4300935CAD /* SupermarketModel.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+		375BCCBE2244E65900935CAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				375BCCC22244E78400935CAD /* SupermarketMap.swift */,
+				375BCCBA2244E5C500935CAD /* SupermarketCercanos.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		375BCCBF2244E6F300935CAD /* Servicio */ = {
+			isa = PBXGroup;
+			children = (
+				375BCCC02244E70500935CAD /* Servicio.swift */,
+			);
+			path = Servicio;
+			sourceTree = "<group>";
+		};
+		375BCCC42244E7B100935CAD /* Celda */ = {
+			isa = PBXGroup;
+			children = (
+				375BCCC52244E7D600935CAD /* SupermarketCell.swift */,
+			);
+			path = Celda;
+			sourceTree = "<group>";
+		};
+		37617CF0223A932C00A0B56A /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				37617CF2223A938A00A0B56A /* SWRevealViewController.h */,
+				37617CF3223A938A00A0B56A /* SWRevealViewController.m */,
+				37617CF1223A938800A0B56A /* proyecto-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			path = MenuHamburguesa/SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		37617CFD223C29A100A0B56A /* Registro */ = {
+			isa = PBXGroup;
+			children = (
+				37B7462221F5CD5E00B6A627 /* Login.swift */,
+				37617CE9223A756200A0B56A /* Registro.swift */,
+			);
+			path = Registro;
+			sourceTree = "<group>";
+		};
+		37617D052241723C00A0B56A /* ListaCompra */ = {
+			isa = PBXGroup;
+			children = (
+				37617CFB223C299800A0B56A /* ListaCompraCell.swift */,
+				37617D03223FBB9800A0B56A /* ListaCompraTable.swift */,
+				37617D01223F952A00A0B56A /* AddListaCompra.swift */,
+			);
+			path = ListaCompra;
+			sourceTree = "<group>";
+		};
 		37B7461421F5CD5E00B6A627 = {
 			isa = PBXGroup;
 			children = (
 				37B7461F21F5CD5E00B6A627 /* proyecto */,
 				37B7461E21F5CD5E00B6A627 /* Products */,
+				CB95D96CEB6B50F4A5F3C474 /* Pods */,
+				7344D2DB354853AB77AD6E64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +177,39 @@
 		37B7461F21F5CD5E00B6A627 /* proyecto */ = {
 			isa = PBXGroup;
 			children = (
+				37617CF0223A932C00A0B56A /* SWRevealViewController */,
 				37B7462021F5CD5E00B6A627 /* AppDelegate.swift */,
-				37B7462221F5CD5E00B6A627 /* ViewController.swift */,
+				37617CF5223AB4EE00A0B56A /* Inicio.swift */,
+				37617D052241723C00A0B56A /* ListaCompra */,
+				37617CFD223C29A100A0B56A /* Registro */,
+				372D40D92246351000E00E14 /* Menu */,
+				375BCCBC2244E60800935CAD /* Supermercados */,
 				37B7462421F5CD5E00B6A627 /* Main.storyboard */,
 				37B7462721F5CD6000B6A627 /* Assets.xcassets */,
 				37B7462921F5CD6000B6A627 /* LaunchScreen.storyboard */,
+				37617D0822425BC600A0B56A /* mi casa.gpx */,
 				37B7462C21F5CD6000B6A627 /* Info.plist */,
+				37A43ADD223A5D1100A73AC1 /* GoogleService-Info.plist */,
+				37617CFE223C2DEF00A0B56A /* ProductosCompra.xcdatamodeld */,
 			);
 			path = proyecto;
+			sourceTree = "<group>";
+		};
+		7344D2DB354853AB77AD6E64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1267FCC705D6AAF2F9CD046 /* Pods_proyecto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB95D96CEB6B50F4A5F3C474 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C58392D41FA8E1855266DCDA /* Pods-proyecto.debug.xcconfig */,
+				5EAD89484A0054CBAFA04F8A /* Pods-proyecto.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37B7462F21F5CD6000B6A627 /* Build configuration list for PBXNativeTarget "proyecto" */;
 			buildPhases = (
+				F7D73602482655206C66EFFC /* [CP] Check Pods Manifest.lock */,
 				37B7461921F5CD5E00B6A627 /* Sources */,
 				37B7461A21F5CD5E00B6A627 /* Frameworks */,
 				37B7461B21F5CD5E00B6A627 /* Resources */,
+				CC8946CE8C336373CCF28FF1 /* [CP] Embed Pods Frameworks */,
+				4F3E1FC4C3D9890A8D3ADA5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +247,7 @@
 				TargetAttributes = {
 					37B7461C21F5CD5E00B6A627 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -123,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37B7462B21F5CD6000B6A627 /* LaunchScreen.storyboard in Resources */,
+				37A43ADE223A5D1200A73AC1 /* GoogleService-Info.plist in Resources */,
 				37B7462821F5CD6000B6A627 /* Assets.xcassets in Resources */,
 				37B7462621F5CD5E00B6A627 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +283,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F3E1FC4C3D9890A8D3ADA5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-proyecto/Pods-proyecto-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-proyecto/Pods-proyecto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8946CE8C336373CCF28FF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-proyecto/Pods-proyecto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-proyecto/Pods-proyecto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D73602482655206C66EFFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-proyecto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		37B7461921F5CD5E00B6A627 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37B7462321F5CD5E00B6A627 /* ViewController.swift in Sources */,
+				375BCCC32244E78400935CAD /* SupermarketMap.swift in Sources */,
+				375BCCC62244E7D600935CAD /* SupermarketCell.swift in Sources */,
+				37617CF8223ABAA200A0B56A /* Menu.swift in Sources */,
+				37B7462321F5CD5E00B6A627 /* Login.swift in Sources */,
+				37617D00223C2DEF00A0B56A /* ProductosCompra.xcdatamodeld in Sources */,
+				37617CF6223AB4EE00A0B56A /* Inicio.swift in Sources */,
+				375BCCBB2244E5C500935CAD /* SupermarketCercanos.swift in Sources */,
+				375BCCC12244E70500935CAD /* Servicio.swift in Sources */,
 				37B7462121F5CD5E00B6A627 /* AppDelegate.swift in Sources */,
+				375BCCB92244DE2800935CAD /* SupermarketPhoto.swift in Sources */,
+				37617D02223F952A00A0B56A /* AddListaCompra.swift in Sources */,
+				37617CF4223A938A00A0B56A /* SWRevealViewController.m in Sources */,
+				37617D04223FBB9900A0B56A /* ListaCompraTable.swift in Sources */,
+				37617CEA223A756200A0B56A /* Registro.swift in Sources */,
+				37617CFC223C299800A0B56A /* ListaCompraCell.swift in Sources */,
+				375BCCB72244CF4300935CAD /* SupermarketModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +528,10 @@
 		};
 		37B7463021F5CD6000B6A627 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C58392D41FA8E1855266DCDA /* Pods-proyecto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = proyecto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -290,6 +540,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.marduk.proyecto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "proyecto/MenuHamburguesa/SWRevealViewController/proyecto-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,8 +549,10 @@
 		};
 		37B7463121F5CD6000B6A627 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EAD89484A0054CBAFA04F8A /* Pods-proyecto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = proyecto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,6 +561,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.marduk.proyecto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "proyecto/MenuHamburguesa/SWRevealViewController/proyecto-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -334,6 +589,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37617CFE223C2DEF00A0B56A /* ProductosCompra.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37617CFF223C2DEF00A0B56A /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 37617CFF223C2DEF00A0B56A /* CoreData.xcdatamodel */;
+			path = ProductosCompra.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 37B7461521F5CD5E00B6A627 /* Project object */;
 }
