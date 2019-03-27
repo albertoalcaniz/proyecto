@@ -12,12 +12,11 @@ import CoreData
 import GoogleMaps
 //import GooglePlaces
 
-//let googleApiKey = "AIzaSyAj-Y2Hp4AyTSx-TW4wlei03XukAmS24kA"
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
    
-    static let googleMapsApiKey = "AIzaSyAj-Y2Hp4AyTSx-TW4wlei03XukAmS24kA"
-    static let googlePlacesAPIKey = "AIzaSyAj-Y2Hp4AyTSx-TW4wlei03XukAmS24kA"
+    static let googleMapsApiKey = "YOUR_API_KEY"
+    static let googlePlacesAPIKey = "YOUR_API_KEY"
 
     var window: UIWindow?
 
